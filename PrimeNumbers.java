@@ -9,9 +9,9 @@ public class PrimeNumbers
   {
     for(int i = 3; i <= NUM; i++) //Starts at 3 since 2 has already been done.
     {
-      if(isPrime(i))
+      if(isPrime(i))//Check if i is a prime number. 
       {
-        primes[primesCount] = i;
+        primes[primesCount] = i;//Add i to the array. 
         primesCount++;
       }
     }
